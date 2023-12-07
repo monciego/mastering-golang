@@ -32,3 +32,11 @@ Here's a list of the null values for the different types:
 `float64`: 0.0
 `string`: "" (empty string)
 `bool`: false
+
+# `fmt.Scan()` Limitations
+
+The `fmt.Scan()` function in Go is a convenient tool for capturing and utilizing user input from the command line. However, it comes with a notable limitation: handling multi-word input values is not straightforward with this function.
+
+When attempting to retrieve text that consists of more than a single word, challenges arise with `fmt.Scan()`. The function may not handle whitespace-separated inputs as expected, leading to complications in processing multi-word responses.
+
+Consider alternative methods or input handling functions if your application requires the capture of multi-word inputs.
