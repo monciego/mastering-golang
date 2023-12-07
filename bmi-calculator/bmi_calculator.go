@@ -6,10 +6,16 @@ import (
 )
 
 func main() {
-	height := 1.63
-	weight := 69
+	var height float64
+	var weight float64
 
-	bmi :=  float64(weight) / (height * height)
+	fmt.Print("Enter weight: ")
+	fmt.Scan(&weight)
+
+	fmt.Print("Enter height: ")
+	fmt.Scan(&height)
+
+	bmi := weight / (height * height)
 
 	fmt.Println(math.Round(bmi))
 }
