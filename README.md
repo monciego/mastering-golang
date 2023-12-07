@@ -11,6 +11,7 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
 
 1. **[Investment Calculator](https://github.com/monciego/mastering-golang/tree/main/investment-calculator)**
 1. **[BMI Calculator](https://github.com/monciego/mastering-golang/tree/main/bmi-calculator)**
+1. **[Profit Calculator](https://github.com/monciego/mastering-golang/tree/main/profit-calculator)**
 
 ## Additional Resources:
 
