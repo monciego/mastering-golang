@@ -17,5 +17,7 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
 
 - **Official GoLang Documentation**
   - [Go Documentation](https://golang.org/doc)
+- **Go By Example**
+  - [Go By Example](https://gobyexample.com/)
 
 Feel free to explore the topics and projects above to gain a better understanding of my GoLang learning journey. Happy coding! 🚀
