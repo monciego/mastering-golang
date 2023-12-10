@@ -10,8 +10,9 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
 ## Small Projects
 
 1. **[Investment Calculator](https://github.com/monciego/mastering-golang/tree/main/investment-calculator)**
-1. **[BMI Calculator](https://github.com/monciego/mastering-golang/tree/main/bmi-calculator)**
-1. **[Profit Calculator](https://github.com/monciego/mastering-golang/tree/main/profit-calculator)**
+2. **[BMI Calculator](https://github.com/monciego/mastering-golang/tree/main/bmi-calculator)**
+3. **[Profit Calculator](https://github.com/monciego/mastering-golang/tree/main/profit-calculator)**
+4. **[Bank](https://github.com/monciego/mastering-golang/tree/main/bank)**
 
 ## Additional Resources:
 
