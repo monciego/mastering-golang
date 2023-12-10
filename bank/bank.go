@@ -18,9 +18,11 @@ func main() {
 		fmt.Print("Please choose an option (1-4): ")
 		fmt.Scan(&choice)
 
-		if choice == 1 {
+
+		switch choice {
+		case 1:
 			fmt.Println("Your balance is:", accountBalance)
-		} else if choice == 2 {
+		case 2:
 			fmt.Print("How much do you want to deposit? ")
 			var depositAmount float64
 			fmt.Scan(&depositAmount)
@@ -32,7 +34,7 @@ func main() {
 
 			accountBalance += depositAmount
 			fmt.Println("Deposit successful. Your new balance is:", accountBalance)
-		} else if choice == 3 {
+		case 3:
 			fmt.Print("How much do you want to widthdaw?")
 			var withdrawalAmount float64
 			fmt.Scan(&withdrawalAmount)
@@ -47,10 +49,10 @@ func main() {
 
 			accountBalance -= withdrawalAmount
 			fmt.Println("Widthdaw successful. Your new balance is: ", accountBalance)
-		} else {
+		default:
 			fmt.Println("Exiting. Thank you for using Go Bank!")
-			break
-		}
+			fmt.Println("Have a great day!")
+			return
+		} 
 	}
-	fmt.Println("Have a great day!")
 }
