@@ -22,13 +22,30 @@ func main() {
 		fmt.Print("How much do you want to deposit? ")
 		var depositAmount float64
 		fmt.Scan(&depositAmount)
+
+		if depositAmount <= 0 {
+			fmt.Println("Invalid input for deposit amount. Must be greater than 0.")
+			return
+		}
+
 		accountBalance += depositAmount
 		fmt.Println("Deposit successful. Your new balance is:", accountBalance)
 	} else if choice == 3 {
 		fmt.Print("How much do you want to widthdaw?")
 		var withdrawalAmount float64
 		fmt.Scan(&withdrawalAmount)
+
+		if withdrawalAmount <= 0 {
+			fmt.Println("Invalid input for deposit amount. Must be greater than 0.")
+			return
+		} else if withdrawalAmount > accountBalance {
+			fmt.Println("Insufficient funds. Cannot withdraw. ")
+			return
+		}
+
 		accountBalance -= withdrawalAmount
 		fmt.Println("Widthdaw successful. Your new balance is: ", accountBalance)
+	} else {
+		fmt.Println("Exiting. Thank you for using Go Bank!")
 	}
 }
