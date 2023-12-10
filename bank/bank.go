@@ -23,6 +23,12 @@ func main() {
 		var depositAmount float64
 		fmt.Scan(&depositAmount)
 		accountBalance += depositAmount
-    	fmt.Println("Deposit successful. Your new balance is:", accountBalance)
+		fmt.Println("Deposit successful. Your new balance is:", accountBalance)
+	} else if choice == 3 {
+		fmt.Print("How much do you want to widthdaw?")
+		var withdrawalAmount float64
+		fmt.Scan(&withdrawalAmount)
+		accountBalance -= withdrawalAmount
+		fmt.Println("Widthdaw successful. Your new balance is: ", accountBalance)
 	}
 }
