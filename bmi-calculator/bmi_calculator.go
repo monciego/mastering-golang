@@ -6,16 +6,26 @@ import (
 )
 
 func main() {
-	var height float64
-	var weight float64
+	weight := getUserInput("Enter Weight: ")
+	height := getUserInput("Enter Height: ")
 
-	fmt.Print("Enter weight: ")
-	fmt.Scan(&weight)
+	bmi := calculateBMI(weight, height)
 
-	fmt.Print("Enter height: ")
-	fmt.Scan(&height)
+	roundAndPrint(bmi)
+}
 
-	bmi := weight / (height * height)
+func getUserInput(text string) float64 {
+	var userInput float64
+	fmt.Print(text)
+	fmt.Scan(&userInput)
+	return userInput
+}
 
-	fmt.Println(math.Round(bmi))
+func calculateBMI(weight, height float64)  float64 {
+	return weight / (height * height)
+}
+
+func roundAndPrint(value float64) {
+	formattedBMI := fmt.Sprintf("Your BMI is %0.f", math.Round(value)) 
+	fmt.Print(formattedBMI)
 }
