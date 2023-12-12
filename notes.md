@@ -40,3 +40,19 @@ The `fmt.Scan()` function in Go is a convenient tool for capturing and utilizing
 When attempting to retrieve text that consists of more than a single word, challenges arise with `fmt.Scan()`. The function may not handle whitespace-separated inputs as expected, leading to complications in processing multi-word responses.
 
 Consider alternative methods or input handling functions if your application requires the capture of multi-word inputs.
+
+# Working with Packages in Go
+
+In the world of Go programming, mastering packages is essential for organizing and structuring your code effectively. This involves:
+
+## 1. Splitting Code Across Multiple Files
+
+- Break down your code into logical units by splitting it across multiple files. This not only enhances readability but also makes maintenance and collaboration more manageable.
+
+## 2. Splitting Code Across Multiple Packages
+
+- Embrace modularity by dividing your code into separate packages. Each package encapsulates related functionalities, promoting a clean and scalable architecture.
+
+## 3. Importing and Using Custom Packages
+
+- Leverage the power of reusable code by importing and utilizing custom packages. Whether built-in or external, packages streamline development and foster code reuse.
