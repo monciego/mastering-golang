@@ -1,3 +1,9 @@
+# Table of Contents
+
+1. [Go Basic Types](#go-basic-types)
+2. [`fmt.Scan()` Limitations](#fmtscan-limitations)
+3. [Working with Packages in Go](#working-with-packages-in-go)
+
 # Go Basic Types
 
 Go comes with a couple of built-in basic types:
