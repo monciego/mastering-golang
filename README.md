@@ -6,6 +6,10 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
 
 1. **[Getting Started]()**
    - [Installing GoLang on your system.](https://go.dev/doc/install)
+2. **[Go by example]()**
+   - [A hands-on introduction to Go using annotated example program](https://gobyexample.com/)
+3. **[Learn Go fast]()**
+   - [Learn Go with no fluff—just what you need to know.]()
 
 ## Small Projects
 
