@@ -87,3 +87,49 @@ When the right hand side of the declaration is typed, the new variable is of tha
 var i int
 j := i // j is also an int
 ```
+
+### Same Line Declarations
+
+You can declare multiple variables on the same line:
+
+```go
+mileage, company := 80276, "Tesla"
+```
+
+The above is the same as:
+
+```go
+mileage := 80276
+company := "Tesla"
+```
+
+### Type Sizes
+
+`ints`, `uints`, `floats`, and `complex` numbers all have type sizes.
+
+```go
+int  int8  int16  int32  int64 // whole numbers
+
+uint uint8 uint16 uint32 uint64 uintptr // positive whole numbers
+
+float32 float64 // decimal numbers
+
+complex64 complex128 // imaginary numbers (rare)
+
+```
+
+The size (8, 16, 32, 64, 128, etc) represents how many bits in memory will be used to store the variable. The "default" int and uint types refer to their respective 32 or 64-bit sizes depending on the environment of the user.
+
+The standard sizes that should be used unless the developer has a specific need are:
+
+- `int`
+- `uint`
+- `float64`
+- `complex128`
+
+Some types can be converted like this:
+
+```go
+temperatureFloat := 88.26
+temperatureInt := int64(temperatureFloat)
+```
