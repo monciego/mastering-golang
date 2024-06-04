@@ -133,3 +133,22 @@ Some types can be converted like this:
 temperatureFloat := 88.26
 temperatureInt := int64(temperatureFloat)
 ```
+
+### Constants
+
+Constants are declared with the `const` keyword. They can't use the `:=` short declaration syntax.
+
+```go
+const pi = 3.14159
+```
+
+Constants can be character, string, boolean, or numeric values. They can not be more complex types like slices, maps and structs.
+
+As the name implies, the value of a constant can't be changed after it has been declared.
+
+---
+
+### Questions and Answers
+
+Q: When should you elect to **NOT** use a 'default type'?
+A: When performance and memory are the primary concern
