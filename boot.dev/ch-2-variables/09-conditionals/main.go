@@ -14,4 +14,16 @@ func main() {
 	} else {
 		fmt.Println("Message not sent")
 	}
+
+
+	/* An if conditional can have an "initial" statement.  */
+	/* 
+	syntax: if INITIAL_STATEMENT; CONDITION {
+		...code here
+	}
+	*/
+	if age := 10;  age < 18 {
+		fmt.Println("Grow up!")
+	}
+
 }
