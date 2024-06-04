@@ -27,3 +27,27 @@ Go is a bit slower mostly due to its automated memory management, also known as 
 ### Go programs are easy on memory
 
 Go programs are fairly lightweight. Each program includes a small amount of "extra" code that's included in the executable binary. This extra code is called the Go Runtime. One of the purposes of the Go runtime is to clean up unused memory at runtime.
+
+## Ch 2: Variables
+
+### Basic Types
+
+Go's basic variable types are:
+
+```go
+    bool
+
+    string
+
+    int  int8  int16  int32  int64
+    uint uint8 uint16 uint32 uint64 uintptr
+
+    byte // alias for uint8
+
+    rune // alias for int32
+        // represents a Unicode code point
+
+    float32 float64
+
+    complex64 complex128
+```
