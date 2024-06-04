@@ -76,3 +76,14 @@ var isFunny = true // inferred as a boolean
 ```
 
 Outside of a function (in the global/package scope), every statement begins with a keyword (var, func, and so on) and so the := construct is not available.
+
+### Type Inference
+
+To declare a variable without specifying an explicit type (either by using the := syntax or var = expression syntax), the variable's type is inferred from the value on the right hand side.
+
+When the right hand side of the declaration is typed, the new variable is of that same type:
+
+```go
+var i int
+j := i // j is also an int
+```
