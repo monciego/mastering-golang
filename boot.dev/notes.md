@@ -159,8 +159,8 @@ However, constants **_can be computed_** as long as the computation can happen a
 For example, this is valid:
 
 ```go
-const firstName = "Lane"
-const lastName = "Wagner"
+const firstName = "Clark"
+const lastName = "Kent"
 const fullName = firstName + " " + lastName
 ```
 
