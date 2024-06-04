@@ -10,6 +10,9 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
    - [A hands-on introduction to Go using annotated example program](https://gobyexample.com/)
 3. **[Learn Go fast]()**
    - [Learn Go with no fluff—just what you need to know.]()
+4. **[Boot.dev]()**
+   - [Introduction to Go]()
+   - [Variables]()
 
 ## Small Projects
 
@@ -21,8 +24,10 @@ Welcome to my GoLang learning journey! This repository contains the code and pro
 ## Additional Resources:
 
 - **Official GoLang Documentation**
-  - [Go Documentation](https://golang.org/doc)
+  - [Go Documentation](https://go.dev/doc/)
 - **Go By Example**
-  - [Go By Example](https://gobyexample.com/)
+  - [Go By Example](https://www.gobyexample.com/)
+- **Boot.dev**
+  - [Boot.dev](https://boot.dev)
 
 Feel free to explore the topics and projects above to gain a better understanding of my GoLang learning journey. Happy coding! 🚀
