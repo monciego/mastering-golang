@@ -8,5 +8,5 @@ func main() {
 	var hasPermission bool; 
 	var username string; 
 
-	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
+	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username) // 0 0.00 false ""
 }
